@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var cat_1 = require("./models/cat");
+var bird_1 = require("./models/bird");
+var fish_1 = require("./models/fish");
+var cat = new cat_1.Cat('moving', 'meow');
+var fish = new fish_1.Fish('swimmig');
+var bird = new bird_1.Bird('flies', 'ko-ko');
+console.log(cat.animalInformation());
+console.log(fish.animalInformation());
+console.log(bird.animalInformation());
